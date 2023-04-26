@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lora&display=swap');
+body{
+    background-color:rgb(132, 169, 225);
+    overflow-y:initial;
+    background-image:url(https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    /*background-repeat:no-repeat;*/
+    background-size:620px auto;
+    overflow:hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Lora', serif;
+    font-size: 13.5px;
+}
+
+.brand img{
+    width:33px;
+    height:30px;
+    padding:5px;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color:rgb(11, 1, 43);
+    color:white;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+nav ul li{
+    padding: 10px 12px;
+}
+.Home{
+    text-decoration:none;
+    color:white;
+}
+.About{
+    text-decoration:none;
+    color:white;
+}
+.Home:hover{
+    color:blue;
+}
+.About:hover{
+    color:blue;
+}
+
+.container{
+    min-height:72vh;
+    max-height:72vh;
+    background-color: black;
+    color: white;
+    margin: 12px auto;
+    width:70%;
+    border-radius:13px;
+    font-family: 'Bruno Ace SC', cursive;
+    padding:5px;
+    display:flex;
+    overflow-y:scroll;
+    background-image:url(https://w0.peakpx.com/wallpaper/1023/275/HD-wallpaper-street-during-nighttime-dark-aesthetic.jpg);
+    background-repeat:no-repeat;
+    background-size:1115px 560px;
+}
+
+.bottom{
+    position:relative;
+    height: 130px;
+    background-color: rgb(11, 1, 43);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+
+#MyProgressBar{
+    width:80vw;
+    cursor:pointer;
+    margin-top:0.01px;
+}
+
+.icons{
+    margin-top:5px ;
+}
+.icons i{
+    cursor: pointer;
+}
+#icon2{
+    margin: 0px 7px;
+}
+.ProgressBarWithOthers{
+    display:flex;
+    flex-direction: row;
+}
+.starttime{
+    display:flex;
+    margin-right:5px;
+    height:19px;
+    background-color:blue;
+    color:white;
+    border-style:solid;
+    border-color: blue;
+    border-radius: 10px;
+}
+.endtime{
+    display:flex;
+    margin-left:5px;
+    height:19px;
+    background-color: white;
+    color:darkblue;
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.songItem{
+    height:20px;
+    display:flex;
+    background-color: white;
+    width:100%;
+    color:black;
+    margin:10px 0px;
+    justify-content:space-between;
+    align-items:center;
+    overflow:hidden;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+
+.MyPlaylist{
+    margin: 20px 20px;
+}
+
+.songItem img{
+    width:43px;
+    height:37px;
+    border-style:groove;
+    border-radius: 36px;
+}
+.timestamp i{
+    cursor: pointer;
+    margin-left:23px;
+}
+
+.SongItemContainer{
+    margin-left:23px;
+
+}
+
+.songinfo{
+    position:relative;
+    right:550px;
+    bottom:55px;
+
+}
+
+.songinfo img{
+    height:43px;
+    width:43px;
+    opacity:0;
+    transition: opacity 0.5s ease-in;
+
+}
+
+.songinfo span{
+    height:43px;
+    width:43px;
+    margin-left:10px;
+    font-family: 'Bruno Ace SC', cursive;
+
+    
+}
+
