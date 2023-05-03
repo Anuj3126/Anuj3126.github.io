@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lora&display=swap');
+body{
+    background-color:rgb(132, 169, 225);
+    overflow-y:initial;
+    background-image:url(https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    /*background-repeat:no-repeat;*/
+    background-size:620px auto;
+    overflow:hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Lora', serif;
+    font-size: 13.5px;
+}
+
+.brand img{
+    width:33px;
+    height:30px;
+    padding:5px;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color:rgb(11, 1, 43);
+    color:white;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+nav ul li{
+    padding: 10px 12px;
+}
+.Home{
+    text-decoration:none;
+    color:white;
+}
+.About{
+    text-decoration:none;
+    color:white;
+}
+.Home:hover{
+    color:blue;
+}
+.About:hover{
+    color:blue;
+}
+.welcome{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-variant:small-caps ;
+    text-decoration-style: double;
+    margin:50px 300px 0px 300px;
+    text-align: center;
+    font-size:40px;
+    display: flex;
+}
+.subwelcome{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-variant:small-caps ;
+    text-decoration-style: double;
+    margin:10px 380px 35px 380px;
+    text-align: center;
+    font-size:25px;
+    display: flex;
+}
+
+.container{
+    margin:100px 250px;
+    background-color:crimson;
+    width:1000px;
+    height:500px;
+    min-width:500px;
+    background:linear-gradient(135degrees,red,black);
+    color:white;
+    border-radius:10px;
+    background-image:url(https://w0.peakpx.com/wallpaper/1023/275/HD-wallpaper-street-during-nighttime-dark-aesthetic.jpg);
+    background-repeat:no-repeat;
+    background-size:1000px 500px;
+    font-family:cursive;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+    border:3px double;
+}
+
+.mainpagebtn{
+    width:30%;
+    height:50px;
+    margin:10px 150px;
+    padding: 0px 0px;
+    font-size: 20px;
+    border:0;
+    background:darkblue;
+    color:#fff;
+    cursor: pointer;
+    border-radius:10px;
+    outline:none;
+}
+
+.mainpagebtn:hover{
+    background:rgb(77, 84, 155);
+
+}
+
+#downarrow{
+    margin:100px 480px 0px 480px;
+}
+
+.homepara{
+    background-color: darkblue;
+    margin:80px 250px 0px 250px;
+}
+
